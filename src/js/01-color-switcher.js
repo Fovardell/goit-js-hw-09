@@ -17,6 +17,7 @@ function onStartButton() {
 
 stop.addEventListener('click', () => {
 	clearInterval(id);
+
 	start.removeAttribute('disabled');
 	stop.setAttribute("disabled", true);
 });
